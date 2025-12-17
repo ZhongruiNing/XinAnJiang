@@ -1,0 +1,104 @@
+{
+    "KC": {
+        "default": 0.93,
+        "lower_bound": 0.5,
+        "upper_bound": 1.0,
+        "description": "流域蒸散发折算系数，敏感"
+    },
+    "UM": {
+        "default": 20,
+        "lower_bound": 10,
+        "upper_bound": 50,
+        "description": "上层张力水容量/mm，敏感"
+    },
+    "LM": {
+        "default": 60,
+        "lower_bound": 40,
+        "upper_bound": 90,
+        "description": "下层张力水容量/mm，敏感"
+    },
+    "C": {
+        "default": 0.18,
+        "lower_bound": 0.1,
+        "upper_bound": 0.2,
+        "description": "深层蒸散发折算系数，不敏感"
+    },
+    "WM": {
+        "default": 120,
+        "lower_bound": 800,
+        "upper_bound": 200,
+        "description": "流域平均张力水容量/mm，不敏感"
+    },
+    "B": {
+        "default": 0.3,
+        "lower_bound": 0.1,
+        "upper_bound": 0.4,
+        "description": "张力水蓄水容量曲线方次，不敏感"
+    },
+    "IM": {
+        "default": 0.01,
+        "lower_bound": 0.005,
+        "upper_bound": 0.05,
+        "description": "不透水面积占全流域面积的比例，不敏感"
+    },
+    "SM": {
+        "default": 30,
+        "lower_bound": 5,
+        "upper_bound": 50,
+        "description": "表层自由水蓄水容量/mm ，敏感"
+    },
+    "EX": {
+        "default": 1.5,
+        "lower_bound": 1.0,
+        "upper_bound": 2.0,
+        "description": "表层自由水蓄水容量方次，不敏感"
+    },
+    "KG": {
+        "default": 0.13,
+        "lower_bound": 0.1,
+        "upper_bound": 0.5,
+        "description": "表层自由水蓄水库对地下水的日出流系数，敏感"
+    },
+    "KI": {
+        "default": 0.57,
+        "lower_bound": 0.1,
+        "upper_bound": 0.5,
+        "description": "表层自由水蓄水库对壤中流的日出流系数，敏感"
+    },
+    "CS": {
+        "default": 0.2,
+        "lower_bound": 0.1,
+        "upper_bound": 0.4,
+        "description": "日模型地面径流消退系数，敏感"
+    },
+    "CI": {
+        "default": 0.8,
+        "lower_bound": 0.1,
+        "upper_bound": 0.999,
+        "description": "日模型壤中流蓄水库的消退系数，敏感"
+    },
+    "CG": {
+        "default": 0.98,
+        "lower_bound": 0.05,
+        "upper_bound": 1.0,
+        "description": "日模型地下水蓄水库的消退系数，敏感"
+    },
+    "CR": {
+        "default": 0.21,
+        "lower_bound": 0.1,
+        "upper_bound": 0.4,
+        "description": "日模型河网蓄水消退系数，敏感"
+    },
+    "KE": {
+        "default": 24,
+        "lower_bound": 1,
+        "upper_bound": 24,
+        "description": "马斯京根法演算参数/h，敏感，KE = N * ∆t，N为河道分段数"
+    },
+    "XE": {
+        "default": 0.4,
+        "lower_bound": 0.01,
+        "upper_bound": 0.5,
+        "description": "马斯京根法演算参数，敏感"
+    }
+}
