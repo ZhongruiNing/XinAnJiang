@@ -1,0 +1,12 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sat Sep 18 17:36:22 2021
+        MODULE ETPCAL__genmod
+          INTERFACE 
+            SUBROUTINE ETPCAL(EOBS1,K1,ETP1,NTIME,NSUB)
+              INTEGER(KIND=4) :: NSUB
+              INTEGER(KIND=4) :: NTIME
+              REAL(KIND=4) :: EOBS1(NTIME,NSUB)
+              REAL(KIND=4) :: K1(NSUB)
+              REAL(KIND=4) :: ETP1(NTIME,NSUB)
+            END SUBROUTINE ETPCAL
+          END INTERFACE 
+        END MODULE ETPCAL__genmod

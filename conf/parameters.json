@@ -25,7 +25,7 @@
     },
     "WM": {
         "default": 120,
-        "lower_bound": 800,
+        "lower_bound": 80,
         "upper_bound": 200,
         "description": "流域平均张力水容量/mm，不敏感"
     },
@@ -66,27 +66,27 @@
         "description": "表层自由水蓄水库对壤中流的日出流系数，敏感"
     },
     "CS": {
-        "default": 0.2,
-        "lower_bound": 0.1,
-        "upper_bound": 0.4,
-        "description": "日模型地面径流消退系数，敏感"
+        "default": 0.99,
+        "lower_bound": 0.01,
+        "upper_bound": 0.999,
+        "description": "日模型地表径流的消退系数，敏感"
     },
     "CI": {
         "default": 0.8,
         "lower_bound": 0.1,
         "upper_bound": 0.999,
-        "description": "日模型壤中流蓄水库的消退系数，敏感"
+        "description": "日模型壤中流的消退系数，敏感"
     },
     "CG": {
-        "default": 0.98,
+        "default": 0.95,
         "lower_bound": 0.05,
-        "upper_bound": 1.0,
-        "description": "日模型地下水蓄水库的消退系数，敏感"
+        "upper_bound": 0.999,
+        "description": "日模型地下水的消退系数，敏感"
     },
     "CR": {
         "default": 0.21,
-        "lower_bound": 0.1,
-        "upper_bound": 0.4,
+        "lower_bound": 0.05,
+        "upper_bound": 0.999,
         "description": "日模型河网蓄水消退系数，敏感"
     },
     "KE": {

@@ -1,0 +1,22 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sat Sep 18 17:36:22 2021
+        MODULE LAGHILLSLOPENEW__genmod
+          INTERFACE 
+            SUBROUTINE LAGHILLSLOPENEW(CI1,CG1,AREA1,DELTAT,NTIME,NSUB, &
+     &RSP1,RIP1,RGP1,QI1,QG1,QSP1,QIP1,QGP1)
+              INTEGER(KIND=4) :: NSUB
+              INTEGER(KIND=4) :: NTIME
+              REAL(KIND=4) :: CI1(NSUB)
+              REAL(KIND=4) :: CG1(NSUB)
+              REAL(KIND=4) :: AREA1(NSUB)
+              REAL(KIND=4) :: DELTAT
+              REAL(KIND=4) :: RSP1(NTIME,NSUB)
+              REAL(KIND=4) :: RIP1(NTIME,NSUB)
+              REAL(KIND=4) :: RGP1(NTIME,NSUB)
+              REAL(KIND=4) :: QI1(NSUB)
+              REAL(KIND=4) :: QG1(NSUB)
+              REAL(KIND=4) :: QSP1(NTIME,NSUB)
+              REAL(KIND=4) :: QIP1(NTIME,NSUB)
+              REAL(KIND=4) :: QGP1(NTIME,NSUB)
+            END SUBROUTINE LAGHILLSLOPENEW
+          END INTERFACE 
+        END MODULE LAGHILLSLOPENEW__genmod

@@ -1,0 +1,17 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sat Sep 18 17:36:22 2021
+        MODULE LAGNETWORKNEW__genmod
+          INTERFACE 
+            SUBROUTINE LAGNETWORKNEW(CS1,L1,NTIME,NSUB,QSP1,QIP1,QGP1,  &
+     &QIN1,QINP1)
+              INTEGER(KIND=4) :: NSUB
+              INTEGER(KIND=4) :: NTIME
+              REAL(KIND=4) :: CS1(NSUB)
+              INTEGER(KIND=4) :: L1(NSUB)
+              REAL(KIND=4) :: QSP1(NTIME,NSUB)
+              REAL(KIND=4) :: QIP1(NTIME,NSUB)
+              REAL(KIND=4) :: QGP1(NTIME,NSUB)
+              REAL(KIND=4) :: QIN1(NSUB)
+              REAL(KIND=4) :: QINP1(NTIME,NSUB)
+            END SUBROUTINE LAGNETWORKNEW
+          END INTERFACE 
+        END MODULE LAGNETWORKNEW__genmod
